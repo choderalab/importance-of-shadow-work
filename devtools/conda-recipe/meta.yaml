@@ -1,0 +1,27 @@
+package:
+  name: importance-of-shadow-work
+  version: "0.0.0"
+
+source:
+  path: ../..
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - python
+    - setuptools
+
+  run:
+    - python
+
+test:
+  requires:
+    - pytest
+  imports:
+    - importance-of-shadow-work
+
+about:
+  home: add_url_here
+  license: MIT License
